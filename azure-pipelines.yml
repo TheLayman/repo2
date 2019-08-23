@@ -5,7 +5,6 @@
 
 trigger:
 - master
-- refs/tags/*
 
 pool:
   vmImage: 'ubuntu-latest'
@@ -15,8 +14,6 @@ steps:
   displayName: 'GitHub release (create)'
   inputs:
     gitHubConnection: github
-    repositoryName: TheLayman/dnsproxy
-    target: master
     tagSource: userSpecifiedTag
     tag: v1
     title: Release Version 1
