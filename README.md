@@ -13,7 +13,7 @@ for details.
 - Node version v6+
 - [Yarn](https://www.npmjs.com/package/yarn)
 
-### Building
+### Building Building
 
 First, fork this repository to another GitHub account. Then you can clone and install:
 
