@@ -19,6 +19,7 @@ Code Organization.
   - `*.js`  (file with pure Javascript, no JSX syntax or header)
 
 
+
 Grunt Tasks and Configuration
 -----------------------------
 Our grunt file offers compilation of:
