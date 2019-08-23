@@ -16,7 +16,7 @@ steps:
     gitHubConnection: github
     tagSource: userSpecifiedTag
     tag: v1
-    title: Release Version 1
+    title: tantanatantan
     releaseNotesSource: inline
     changeLogType: commitBased
     changeLogLabels: '[{"label": "trust", "displayName": "Trust Issues", "state": "open"}, {"label": "bug", "displayName": "Bugs Fixed", "state": "closed"}]'
