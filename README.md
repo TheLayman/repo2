@@ -23,7 +23,7 @@ cd taskcluster-tools
 yarn
 ```
 
-### Code Organization
+### Code Organization 
 
 - `src/` (Tools source code)
 - `src/<app>/`  (application specific-code, can be reused)
