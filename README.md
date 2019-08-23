@@ -11,7 +11,7 @@ for details.
 Developing TaskCluster Tools
 ============================
 
-Code Organization
+Code Organization.
 -----------------
   - lib/    (code intended for reuse)
   - <app>/  (application specific-code, can be reused)
