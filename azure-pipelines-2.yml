@@ -18,7 +18,7 @@ steps:
     target: efficiency
     tagSource: gitTag
     tagPattern: 'dev.*'
-    title: tantanatantan
+    title: dev release
     releaseNotesSource: inline
     changeLogType: issueBased
     changeLogCompareToRelease: lastNonDraftReleaseByTag
