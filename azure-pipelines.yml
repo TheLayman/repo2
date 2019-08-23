@@ -14,7 +14,7 @@ steps:
 - task: GitHubRelease@1
   displayName: 'GitHub release (create)'
   inputs:
-    gitHubConnection: TheLayman (1)
+    gitHubConnection: github
     repositoryName: TheLayman/dnsproxy
     target: master
     tagSource: userSpecifiedTag
