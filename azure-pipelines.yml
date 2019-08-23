@@ -21,17 +21,3 @@ steps:
     changeLogCompareToRelease: lastNonDraftReleaseByTag
     changeLogCompareToReleaseTag: 'v.*'
     changeLogLabels: '[{"label": "trust", "displayName": "Trust Issues", "state": "open"}, {"label": "bug", "displayName": "Bugs Fixed", "state": "closed"}]'
-
-- task: GitHubRelease@1
-  displayName: 'GitHub release (create)'
-  inputs:
-    gitHubConnection: github
-    target: efficiency
-    tagSource: gitTag
-    tagPattern: 'dev.*'
-    title: tantanatantan
-    releaseNotesSource: inline
-    changeLogType: issueBased
-    changeLogCompareToRelease: lastNonDraftReleaseByTag
-    changeLogCompareToReleaseTag: 'dev.*'
-    changeLogLabels: '[{"label": "trust", "displayName": "Trust Issues", "state": "open"}, {"label": "bug", "displayName": "Bugs Fixed", "state": "closed"}]'
