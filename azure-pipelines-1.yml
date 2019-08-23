@@ -8,14 +8,14 @@ trigger:
 
 pool:
   vmImage: 'ubuntu-latest'
-
+steps:
 - task: GitHubRelease@1
   displayName: 'GitHub release (create)'
   inputs:
     gitHubConnection: github
     tagSource: userSpecifiedTag
     tag: v1
-    title: efficiency-branch-release
+    title: 'efficiency-branch-release'
     releaseNotesSource: inline
     changeLogType: commitBased
     changeLogLabels: '[{"label": "trust", "displayName": "Trust Issues", "state": "open"}, {"label": "bug", "displayName": "Bugs Fixed", "state": "closed"}]'
